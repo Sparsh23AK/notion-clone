@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1710672131214,
+      "tag": "0000_aberrant_vertigo",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1710680912363,
+      "tag": "0001_chemical_thanos",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1711176686578,
+      "tag": "0002_odd_jazinda",
+      "breakpoints": true
+    }
+  ]
+}
