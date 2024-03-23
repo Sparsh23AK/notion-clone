@@ -13,13 +13,13 @@ export const metadata: Metadata = {
     icon: [
       {
         media: "(prefers-color-scheme: light)",
-        url: "/p.svg",
-        href: "/p.svg",
+        url: "/icons/p.svg",
+        href: "/icons/p.svg",
       },
       {
         media: "(prefers-color-scheme: dark)",
-        url: "/p-dark.svg",
-        href: "/p-dark.svg",
+        url: "/icons/p-dark.svg",
+        href: "/icons/p-dark.svg",
       },
     ],
   },
@@ -35,7 +35,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-          {" "}
           {children}
         </ThemeProvider>
       </body>
