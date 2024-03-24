@@ -1,11 +1,11 @@
 import React from 'react'
-// import Header from '@/components/landing-page/header';
+import Header from '@/src/components/landing-page/header';
 
 
 const HomePageLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <main>
-      {/* <Header /> */}
+      <Header />
       {children}
     </main>
   )
