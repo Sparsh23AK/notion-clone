@@ -75,7 +75,7 @@ const WorkspaceDropdown: React.FC<WorkspaceDropdownProps> = ({
           rounded-md
           shadow-md
           z-50
-          h-[190px]
+          h-[250px]
           bg-black/10
           backdrop-blur-lg
           group
