@@ -14,6 +14,8 @@ import WorkspaceDropdown from "./workspace-dropdown";
 import { ScrollArea } from "../ui/scroll-area";
 import PlanUsage from "./plan-usage";
 import NativeNavigation from "./native-navigation";
+import FoldersDropdownList from "./folders-dropdown-list";
+import UserCard from "./user-card";
 
 interface SidebarProps {
   params: { workspaceId: string };
@@ -80,13 +82,13 @@ const Sidebar: React.FC<SidebarProps> = async ({ params, className }) => {
               to-transparent 
               z-40"
               />
-              {/* <FoldersDropdownList
+              <FoldersDropdownList
                 workspaceFolders={workspaceFolderData || []}
                 workspaceId={params.workspaceId}
-              /> */}
+              />
             </ScrollArea>
           </div>
-          {/* <UserCard subscription={subscriptionData} /> */}
+          <UserCard subscription={subscriptionData} />
         </aside>
       );
     };

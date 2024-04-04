@@ -29,6 +29,13 @@
       "when": 1711707224364,
       "tag": "0003_nifty_namor",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1711805338927,
+      "tag": "0004_ancient_synch",
+      "breakpoints": true
     }
   ]
 }
